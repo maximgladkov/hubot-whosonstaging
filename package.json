@@ -1,6 +1,6 @@
 {
   "name": "hubot-whosonstaging",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Script integrates hubot with Who's on Staging? — a simple tool to track who is using staging servers",
   "main": "index.coffee",
   "scripts": {
