@@ -28,7 +28,7 @@
 #   maximgladkov
 
 module.exports = (robot) ->
-  HOST = "http://localhost:3000"
+  HOST = "https://whosonstaging.com"
 
   robot.router.put '/hubot/whosonstaging/users/:user_id/api_key', (req, res) ->
     userId = req.params.user_id
