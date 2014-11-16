@@ -1,0 +1,19 @@
+{
+  "name": "hubot-whosonstaging",
+  "version": "0.0.1",
+  "description": "Script integrates hubot with Who's on Staging? — a simple tool to track who is using staging servers",
+  "main": "index.coffee",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maximgladkov/hubot-whosonstaging"
+  },
+  "keywords": [
+    "staging",
+    "whosonstaging",
+    "integration"
+  ],
+  "author": "Maxim Gladkov <maxim@whosonstaging.com>",
+  "license": "MIT"
+}
