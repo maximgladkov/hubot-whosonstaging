@@ -46,7 +46,7 @@ module.exports = (robot) ->
       data.api_key = apiKey
       robot.http(url)
         .query(data)
-        .post() (err, res, body) ->
+        .post('') (err, res, body) ->
           if err || res.statusCode != 200
             msg.reply err || body
           else
@@ -64,7 +64,7 @@ module.exports = (robot) ->
 
     robot.http("#{ HOST }/api/v0/hubot/users/connect.json")
       .query(data)
-      .post() (err, res, body) ->
+      .post('') (err, res, body) ->
         if err || res.statusCode != 200
           msg.reply err || body
         else
